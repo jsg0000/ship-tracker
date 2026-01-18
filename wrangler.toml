@@ -1,0 +1,8 @@
+name = "ship-tracker"
+main = "worker.js"
+compatibility_date = "2026-01-17"
+
+# Define routes that should trigger this worker
+routes = [
+  { pattern = "reportone.tech", zone_name = "reportone.tech" },
+]
