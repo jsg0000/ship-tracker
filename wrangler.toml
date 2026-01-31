@@ -6,3 +6,11 @@ compatibility_date = "2026-01-17"
 routes = [
   { pattern = "reportone.tech", zone_name = "reportone.tech" },
 ]
+
+# Observability settings
+[observability]
+enabled = true
+
+[observability.logs]
+enabled = true
+invocation_logs = true
